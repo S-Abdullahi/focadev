@@ -36,7 +36,7 @@ const Addpost = () => {
         <>
             <Tooltip title="Delete" sx={{position:'fixed', bottom:20, left:{xs:'calc(50%)', md: 30}}} onClick={(e)=>setOpen(true)}>
             <Fab color="primary" aria-label="add">
-                <AddIcon />
+                <AddIcon sx={{borderColor:'#023047'}}/>
             </Fab>
             </Tooltip>
 

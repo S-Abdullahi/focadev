@@ -13,10 +13,6 @@ const Feed = () => {
         <>
            <Box flex={4} padding={2}>
                 <Post/>
-                <Post/>
-                <Post/>
-                <Post/>
-                <Post/>
             </Box>
         </>
         

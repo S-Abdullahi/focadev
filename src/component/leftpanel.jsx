@@ -9,6 +9,10 @@ import PersonIcon from '@mui/icons-material/Person';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
+import { styled} from '@mui/material/styles';
+
+
+
 
 const LeftPanel = () => {
     return ( 
@@ -21,7 +25,7 @@ const LeftPanel = () => {
                             <ListItemIcon>
                                 <HomeIcon />
                             </ListItemIcon>
-                        <ListItemText primary="Homepage" />
+                        <ListItemText primary="Homepage" sx={{display:{sm:"none",md:'block'}}}/>
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
@@ -29,7 +33,7 @@ const LeftPanel = () => {
                             <ListItemIcon>
                                 <ArticleIcon />
                             </ListItemIcon>
-                        <ListItemText primary="Pages" />
+                        <ListItemText primary="Pages" sx={{display:{sm:"none",md:'block'}}}/>
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
@@ -37,7 +41,7 @@ const LeftPanel = () => {
                             <ListItemIcon>
                                 <GroupIcon />
                             </ListItemIcon>
-                        <ListItemText primary="Groups" />
+                        <ListItemText primary="Groups" sx={{display:{sm:"none",md:'block'}}}/>
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
@@ -45,7 +49,7 @@ const LeftPanel = () => {
                             <ListItemIcon>
                                 <StorefrontIcon />
                             </ListItemIcon>
-                        <ListItemText primary="Marketplace" />
+                        <ListItemText primary="Market" sx={{display:{sm:"none",md:'block'}}}/>
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
@@ -53,7 +57,7 @@ const LeftPanel = () => {
                             <ListItemIcon>
                                 <PersonIcon />
                             </ListItemIcon>
-                        <ListItemText primary="Friends" />
+                        <ListItemText primary="Friends" sx={{display:{sm:"none",md:'block'}}}/>
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
@@ -61,7 +65,7 @@ const LeftPanel = () => {
                             <ListItemIcon>
                                 <SettingsIcon />
                             </ListItemIcon>
-                        <ListItemText primary="Settings" />
+                        <ListItemText primary="Settings" sx={{display:{sm:"none",md:'block'}}}/>
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
@@ -69,7 +73,7 @@ const LeftPanel = () => {
                             <ListItemIcon>
                                 <AccountBoxIcon />
                             </ListItemIcon>
-                        <ListItemText primary="Profile" />
+                        <ListItemText primary="Profile" sx={{display:{sm:"none",md:'block'}}}/>
                     </ListItemButton>
                 </ListItem>
                 <ListItem disablePadding>
@@ -77,7 +81,7 @@ const LeftPanel = () => {
                             <ListItemIcon>
                                 <ModeNightIcon />
                             </ListItemIcon>
-                            <Switch/>
+                            <Switch sx={{display:{sm:"none",md:'block'}}}/>
                     </ListItemButton>
                 </ListItem>
             </List>
